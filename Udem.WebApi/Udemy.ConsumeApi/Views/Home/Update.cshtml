@@ -1,0 +1,22 @@
+﻿@model Udemy.ConsumeApi.Response.ProductResponseModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form asp-action="Update" asp-controller="Home" method="post">
+        <input type="hidden" asp-for="Id" />
+        <input type="text" asp-for="Name" placeholder="Name " />
+        <br />
+        <input type="text" asp-for="Price" placeholder="Name " />
+        <br />
+        <input type="text" asp-for="Stock" placeholder="Name " />
+        <br />
+        <input type="text" asp-for="ImagePath" placeholder="Name " />
+        <br />
+
+        <button type="submit" class="btn btn-primary">Gönder</button>
+    </form>
+</body>
+</html>

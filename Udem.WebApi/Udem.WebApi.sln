@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udem.WebApi", "Udem.WebApi\Udem.WebApi.csproj", "{DE238CF0-A6C4-4C8C-8424-FCB36700344D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy.ConsumeApi", "Udemy.ConsumeApi\Udemy.ConsumeApi.csproj", "{ED03853B-63A8-4C64-A392-CB1DB07655DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE238CF0-A6C4-4C8C-8424-FCB36700344D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE238CF0-A6C4-4C8C-8424-FCB36700344D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE238CF0-A6C4-4C8C-8424-FCB36700344D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE238CF0-A6C4-4C8C-8424-FCB36700344D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED03853B-63A8-4C64-A392-CB1DB07655DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED03853B-63A8-4C64-A392-CB1DB07655DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED03853B-63A8-4C64-A392-CB1DB07655DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED03853B-63A8-4C64-A392-CB1DB07655DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FAA2731-C937-44EB-BE01-FC567FA36391}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿@model Udemy.ConsumeApi.Response.ProductResponseModel
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form asp-action="Upload" asp-controller="Home" method="post" enctype="multipart/form-data">
+        <input type="file" 
+             name="file"  placeholder="Dosya Ekle " />
+       
+        <button type="submit" class="btn btn-primary">Gönder</button>
+    </form>
+</body>
+</html>
